@@ -1,0 +1,114 @@
+{
+  "nav": {
+    "home": "الرئيسية",
+    "shop": "المتجر",
+    "about": "من نحن",
+    "contact": "اتصل بنا",
+    "cart": "السلة",
+    "wishlist": "المفضلة",
+    "search": "بحث"
+  },
+  "hero": {
+    "title": "الفخامة لصغاركم",
+    "subtitle": "اكتشف مستلزمات الأطفال الفاخرة والأثاث والإكسسوارات المصممة بحب وعناية",
+    "cta": "تسوق الآن",
+    "secondaryCta": "استكشف المجموعات"
+  },
+  "categories": {
+    "title": "التسوق حسب الفئة",
+    "all": "جميع المنتجات",
+    "clothing": "ملابس الأطفال",
+    "essentials": "أساسيات الأطفال",
+    "accessories": "إكسسوارات الأطفال",
+    "furniture": "أثاث الأطفال",
+    "nursery": "ديكور الحضانة",
+    "feeding": "منتجات التغذية",
+    "gifts": "مجموعات الهدايا",
+    "babyCare":"ادوات الرعاية الطفل"
+  },
+  "product": {
+    "addToCart": "أضف إلى السلة",
+    "addToWishlist": "أضف إلى المفضلة",
+    "removeFromWishlist": "إزالة من المفضلة",
+    "quickView": "عرض سريع",
+    "viewDetails": "عرض التفاصيل",
+    "inStock": "متوفر",
+    "outOfStock": "غير متوفر",
+    "quantity": "الكمية",
+    "price": "السعر",
+    "description": "الوصف",
+    "specifications": "المواصفات",
+    "reviews": "التقييمات",
+    "relatedProducts": "منتجات ذات صلة",
+    "selectSize": "اختر المقاس",
+    "selectColor": "اختر اللون"
+  },
+  "cart": {
+    "title": "سلة التسوق",
+    "empty": "سلتك فارغة",
+    "continueShopping": "متابعة التسوق",
+    "checkout": "إتمام الطلب",
+    "subtotal": "المجموع الفرعي",
+    "total": "الإجمالي",
+    "remove": "إزالة",
+    "itemsInCart": "{{count}} منتج في السلة",
+    "itemsInCart_other": "{{count}} منتجات في السلة"
+  },
+  "filters": {
+    "title": "التصفية",
+    "category": "الفئة",
+    "priceRange": "نطاق السعر",
+    "sortBy": "ترتيب حسب",
+    "clear": "مسح الكل",
+    "apply": "تطبيق الفلاتر",
+    "newest": "الأحدث",
+    "priceLowHigh": "السعر: من الأقل للأعلى",
+    "priceHighLow": "السعر: من الأعلى للأقل",
+    "popular": "الأكثر شعبية"
+  },
+  "about": {
+    "title": "عن بيوما",
+    "subtitle": "شريكك الموثوق في رعاية الأطفال الفاخرة",
+    "story": "قصتنا",
+    "mission": "مهمتنا",
+    "values": "قيمنا"
+  },
+  "contact": {
+    "title": "تواصل معنا",
+    "subtitle": "نحن نحب أن نسمع منك",
+    "name": "الاسم",
+    "email": "البريد الإلكتروني",
+    "message": "الرسالة",
+    "send": "إرسال الرسالة",
+    "phone": "الهاتف",
+    "address": "العنوان",
+    "followUs": "تابعنا"
+  },
+  "footer": {
+    "about": "عن بيوما",
+    "description": "علامة تجارية فاخرة لأسلوب حياة الأطفال تقدم أساسيات وأثاث وإكسسوارات فاخرة لصغاركم.",
+    "quickLinks": "روابط سريعة",
+    "customerService": "خدمة العملاء",
+    "shipping": "معلومات الشحن",
+    "returns": "الإرجاع والاستبدال",
+    "faq": "الأسئلة الشائعة",
+    "privacy": "سياسة الخصوصية",
+    "terms": "شروط الخدمة",
+    "newsletter": "النشرة الإخبارية",
+    "newsletterText": "اشترك لتلقي التحديثات والعروض الحصرية",
+    "subscribe": "اشترك",
+    "emailPlaceholder": "أدخل بريدك الإلكتروني",
+    "copyright": "© 2026 بيوما. جميع الحقوق محفوظة."
+  },
+  "common": {
+    "loading": "جاري التحميل...",
+    "error": "حدث خطأ ما",
+    "tryAgain": "حاول مرة أخرى",
+    "showMore": "عرض المزيد",
+    "showLess": "عرض أقل",
+    "new": "جديد",
+    "sale": "تخفيضات",
+    "featured": "مميز",
+    "bestSeller": "الأكثر مبيعاً"
+  }
+}

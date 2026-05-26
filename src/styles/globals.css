@@ -1,0 +1,73 @@
+/* Global Styles */
+
+* {
+  scroll-behavior: smooth;
+}
+
+html {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* RTL Support */
+[dir='rtl'] {
+  direction: rtl;
+}
+
+[dir='ltr'] {
+  direction: ltr;
+}
+
+/* Smooth transitions for language switching */
+* {
+  transition-property: margin, padding;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+/* Prevent transition on button/interactive elements */
+button,
+a,
+input,
+textarea,
+select {
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--muted);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--caramel);
+}
+
+/* Selection */
+::selection {
+  background-color: var(--primary);
+  color: var(--primary-foreground);
+}
+
+/* Focus visible */
+*:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+
+/* Image optimization */
+img {
+  max-width: 100%;
+  height: auto;
+}

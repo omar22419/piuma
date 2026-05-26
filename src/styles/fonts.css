@@ -1,0 +1,11 @@
+/* Import Google Fonts for luxury typography */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+/* Use Playfair Display for headings and Inter for body text */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+body, p, a, button, input, textarea, select {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}

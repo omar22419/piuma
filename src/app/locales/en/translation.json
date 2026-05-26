@@ -1,0 +1,114 @@
+{
+  "nav": {
+    "home": "Home",
+    "shop": "Shop",
+    "about": "About",
+    "contact": "Contact",
+    "cart": "Cart",
+    "wishlist": "Wishlist",
+    "search": "Search"
+  },
+  "hero": {
+    "title": "Luxury for Your Little Ones",
+    "subtitle": "Discover premium baby essentials, furniture, and accessories designed with love and care",
+    "cta": "Shop Now",
+    "secondaryCta": "Explore Collections"
+  },
+  "categories": {
+    "title": "Shop by Category",
+    "all": "All Products",
+    "clothing": "Baby Clothing",
+    "essentials": "Baby Essentials",
+    "accessories": "Baby Accessories",
+    "furniture": "Baby Furniture",
+    "nursery": "Nursery Decor",
+    "feeding": "Feeding Products",
+    "gifts": "Gift Sets",
+    "babyCare": "Baby Care"
+  },
+  "product": {
+    "addToCart": "Add to Cart",
+    "addToWishlist": "Add to Wishlist",
+    "removeFromWishlist": "Remove from Wishlist",
+    "quickView": "Quick View",
+    "viewDetails": "View Details",
+    "inStock": "In Stock",
+    "outOfStock": "Out of Stock",
+    "quantity": "Quantity",
+    "price": "Price",
+    "description": "Description",
+    "specifications": "Specifications",
+    "reviews": "Reviews",
+    "relatedProducts": "Related Products",
+    "selectSize": "Select Size",
+    "selectColor": "Select Color"
+  },
+  "cart": {
+    "title": "Shopping Cart",
+    "empty": "Your cart is empty",
+    "continueShopping": "Continue Shopping",
+    "checkout": "Checkout",
+    "subtotal": "Subtotal",
+    "total": "Total",
+    "remove": "Remove",
+    "itemsInCart": "{{count}} item in cart",
+    "itemsInCart_other": "{{count}} items in cart"
+  },
+  "filters": {
+    "title": "Filters",
+    "category": "Category",
+    "priceRange": "Price Range",
+    "sortBy": "Sort By",
+    "clear": "Clear All",
+    "apply": "Apply Filters",
+    "newest": "Newest",
+    "priceLowHigh": "Price: Low to High",
+    "priceHighLow": "Price: High to Low",
+    "popular": "Most Popular"
+  },
+  "about": {
+    "title": "About PIUMA",
+    "subtitle": "Your Trusted Partner in Premium Baby Care",
+    "story": "Our Story",
+    "mission": "Our Mission",
+    "values": "Our Values"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "We'd love to hear from you",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send Message",
+    "phone": "Phone",
+    "address": "Address",
+    "followUs": "Follow Us"
+  },
+  "footer": {
+    "about": "About PIUMA",
+    "description": "Premium baby and kids lifestyle brand offering luxury essentials, furniture, and accessories for your little ones.",
+    "quickLinks": "Quick Links",
+    "customerService": "Customer Service",
+    "shipping": "Shipping Information",
+    "returns": "Returns & Exchanges",
+    "faq": "FAQ",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "newsletter": "Newsletter",
+    "newsletterText": "Subscribe to receive updates and exclusive offers",
+    "subscribe": "Subscribe",
+    "emailPlaceholder": "Enter your email",
+    "copyright": "© 2026 PIUMA. All rights reserved."
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "tryAgain": "Try Again",
+    "showMore": "Show More",
+    "showLess": "Show Less",
+    "new": "New",
+    "sale": "Sale",
+    "featured": "Featured",
+    "bestSeller": "Best Seller"
+  }
+}
