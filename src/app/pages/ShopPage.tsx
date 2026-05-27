@@ -25,8 +25,7 @@ export function ShopPage() {
     { value: 'nursery', label: t('categories.nursery') },
     { value: 'feeding', label: t('categories.feeding') },
     { value: 'gifts', label: t('categories.gifts') },
-    { value: 'baby care', label: t('categories.baby care') },
-
+    { value: 'baby care', label: t('categories.babyCare') },
   ];
 
   const sortOptions: { value: SortOption; label: string }[] = [

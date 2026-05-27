@@ -175,7 +175,7 @@ export function HomePage() {
               { name: t('categories.clothing'), category: 'clothing', image: 'https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600' },
               { name: t('categories.furniture'), category: 'furniture', image: 'https://images.unsplash.com/photo-1774578342155-8d7e44a18bfd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600' },
               { name: t('categories.accessories'), category: 'accessories', image: 'https://images.unsplash.com/photo-1589737172779-748786ed5ad8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600' },
-              { name: t('Baby Care'), category: 'baby care', image: 'https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600' }
+              { name: t('categories.babyCare'), category: 'baby care', image: 'https://images.unsplash.com/photo-1716972065448-e08a46809530?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' }
             ].map((cat, index) => (
               <motion.div
                 key={cat.category}

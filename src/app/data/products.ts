@@ -37,6 +37,7 @@ export const products: Product[] = [
       المميزات: "حواف آمنة وتصميم ديناصور ممتع",
     },
   },
+
   {
     id: "2",
     name: "Baby Play Gym with Mobile",
@@ -829,110 +830,426 @@ export const products: Product[] = [
   // Baby Accessories
   {
     id: "24",
-    name: "Handmade Knit Teddy Bear",
-    nameAr: "دب محبوك يدوياً",
-    slug: "handmade-knit-teddy-bear",
+    name: "Luxury Baby Glass Bottle Set",
+    nameAr: "مجموعة رضاعة زجاجية فاخرة",
+    slug: "luxury-baby-glass-bottle-set",
     description:
-      "Artisan-crafted teddy bear in soft organic cotton. Perfect first companion for your little one.",
+      "Elegant baby feeding bottle with a soft protective sleeve designed for safe and stylish feeding.",
     descriptionAr:
-      "دب مصنوع يدوياً من القطن العضوي الناعم. الرفيق الأول المثالي لطفلك الصغير.",
-    price: 65,
+      "رضاعة أطفال أنيقة مع غطاء ناعم للحماية، مصممة لتوفير رضاعة آمنة وعصرية.",
+    price: 42,
+    category: "feeding",
+    images: [
+      {
+        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779808578/15_sikpvp.jpg",
+        alt: "Luxury baby bottle set",
+      },
+    ],
+    inStock: true,
+    featured: true,
+    rating: 4.9,
+    reviewCount: 124,
+    specifications: {
+      Material: "BPA-Free Glass & Silicone",
+      Capacity: "240 ml",
+      Safety: "Leak-proof and anti-colic design",
+      Care: "Dishwasher safe",
+    },
+    specificationsAr: {
+      المادة: "زجاج وسيليكون خالٍ من BPA",
+      السعة: "240 مل",
+      السلامة: "تصميم مضاد للمغص والتسريب",
+      العناية: "آمنة للغسيل في غسالة الصحون",
+    },
+  },
+
+  {
+    id: "25",
+    name: "Bear Shape Baby Pacifier",
+    nameAr: "لهاية أطفال بتصميم الدب",
+    slug: "bear-shape-baby-pacifier",
+    description:
+      "Adorable pacifier with a playful bear-inspired design made from ultra-soft silicone.",
+    descriptionAr:
+      "لهاية لطيفة بتصميم مستوحى من الدب مصنوعة من السيليكون الناعم جداً.",
+    price: 18,
     category: "accessories",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1589737172779-748786ed5ad8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
-        alt: "Handmade teddy bear",
+        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779808578/37_bbd9yu.jpg",
+        alt: "Bear baby pacifier",
+      },
+    ],
+    inStock: true,
+    featured: false,
+    rating: 4.8,
+    reviewCount: 89,
+    specifications: {
+      Material: "Food-grade Silicone",
+      Size: "0-6 Months",
+      Safety: "BPA & PVC free",
+      Care: "Sterilizer safe",
+    },
+    specificationsAr: {
+      المادة: "سيليكون آمن غذائياً",
+      الحجم: "من 0 إلى 6 أشهر",
+      السلامة: "خالٍ من BPA وPVC",
+      العناية: "آمن للتعقيم",
+    },
+  },
+
+  {
+    id: "26",
+    name: "Flower Silicone Pacifier",
+    nameAr: "لهاية سيليكون بتصميم زهرة",
+    slug: "flower-silicone-pacifier",
+    description:
+      "Soft floral-inspired pacifier designed to comfort babies with a soothing natural feel.",
+    descriptionAr: "لهاية ناعمة بتصميم زهري مريح لتهدئة الأطفال بإحساس طبيعي.",
+    price: 20,
+    category: "accessories",
+    images: [
+      {
+        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779808578/32_xbhxsl.jpg",
+        alt: "Flower silicone pacifier",
+      },
+    ],
+    inStock: true,
+    featured: true,
+    rating: 4.9,
+    reviewCount: 142,
+    specifications: {
+      Material: "Medical-grade Silicone",
+      Size: "6-18 Months",
+      Safety: "Orthodontic nipple design",
+      Care: "Easy to sterilize",
+    },
+    specificationsAr: {
+      المادة: "سيليكون طبي",
+      الحجم: "من 6 إلى 18 شهر",
+      السلامة: "تصميم يدعم نمو الأسنان",
+      العناية: "سهل التعقيم",
+    },
+  },
+
+  {
+    id: "27",
+    name: "Portable Baby Wipes Warmer",
+    nameAr: "جهاز تدفئة مناديل الأطفال",
+    slug: "portable-baby-wipes-warmer",
+    description:
+      "Modern wipes warmer keeps baby wipes fresh, warm, and ready for comfortable diaper changes.",
+    descriptionAr:
+      "جهاز عصري يحافظ على مناديل الأطفال دافئة ورطبة لتغيير حفاضات أكثر راحة.",
+    price: 95,
+    category: "accessories",
+    images: [
+      {
+        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779808578/21_a1h07o.jpg",
+        alt: "Baby wipes warmer",
+      },
+    ],
+    inStock: true,
+    featured: true,
+    rating: 4.7,
+    reviewCount: 77,
+    specifications: {
+      Material: "ABS Plastic",
+      Power: "USB Rechargeable",
+      Safety: "Temperature controlled",
+      Care: "Wipe clean only",
+    },
+    specificationsAr: {
+      المادة: "بلاستيك ABS",
+      الطاقة: "قابل للشحن USB",
+      السلامة: "تحكم آمن في الحرارة",
+      العناية: "تنظيف بقطعة مبللة",
+    },
+  },
+
+  {
+    id: "28",
+    name: "Dinosaur Baby Thermometer",
+    nameAr: "ترمومتر أطفال بتصميم ديناصور",
+    slug: "dinosaur-baby-thermometer",
+    description:
+      "Cute dinosaur-shaped digital thermometer for quick and accurate baby temperature readings.",
+    descriptionAr:
+      "ترمومتر رقمي لطيف بتصميم ديناصور لقياس حرارة الطفل بسرعة ودقة.",
+    price: 36,
+    category: "accessories",
+    images: [
+      {
+        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779808578/20_lk6qdv.jpg",
+        alt: "Dinosaur baby thermometer",
+      },
+    ],
+    inStock: true,
+    featured: false,
+    rating: 4.8,
+    reviewCount: 64,
+    specifications: {
+      Material: "Soft-touch Plastic",
+      Display: "Digital LCD",
+      Safety: "Safe rounded edges",
+      Care: "Store in dry place",
+    },
+    specificationsAr: {
+      المادة: "بلاستيك ناعم الملمس",
+      الشاشة: "LCD رقمية",
+      السلامة: "حواف آمنة ومستديرة",
+      العناية: "يحفظ في مكان جاف",
+    },
+  },
+
+  {
+    id: "29",
+    name: "Silicone Straw Training Cup",
+    nameAr: "كوب تدريب بسيليكون وشفاط",
+    slug: "silicone-straw-training-cup",
+    description:
+      "Minimalist silicone cup with handles and straw, perfect for toddler self-feeding training.",
+    descriptionAr:
+      "كوب سيليكون بسيط مع مقابض وشفاط مثالي لتعليم الأطفال الشرب بمفردهم.",
+    price: 32,
+    category: "feeding",
+    images: [
+      {
+        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779808578/18_kvhfjc.jpg",
+        alt: "Silicone straw training cup",
+      },
+    ],
+    inStock: true,
+    featured: true,
+    rating: 4.9,
+    reviewCount: 188,
+    specifications: {
+      Material: "Food-grade Silicone",
+      Capacity: "180 ml",
+      Safety: "Spill-resistant design",
+      Care: "Microwave & dishwasher safe",
+    },
+    specificationsAr: {
+      المادة: "سيليكون آمن غذائياً",
+      السعة: "180 مل",
+      السلامة: "تصميم مقاوم للانسكاب",
+      العناية: "آمن للميكروويف وغسالة الصحون",
+    },
+  },
+
+  {
+    id: "30",
+    name: "Baby Fruit Feeder Pacifier",
+    nameAr: "لهاية تغذية الفواكه للأطفال",
+    slug: "baby-fruit-feeder-pacifier",
+    description:
+      "Safe fruit feeder pacifier designed to introduce fresh fruits to babies without choking risk.",
+    descriptionAr:
+      "لهاية آمنة لتقديم الفواكه الطازجة للأطفال بدون خطر الاختناق.",
+    price: 16,
+    category: "feeding",
+    images: [
+      {
+        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779879881/31_vhkhxe.jpg",
+        alt: "Baby fruit feeder",
+      },
+    ],
+    inStock: true,
+    featured: false,
+    rating: 4.7,
+    reviewCount: 93,
+    specifications: {
+      Material: "Silicone & PP",
+      Size: "6+ Months",
+      Safety: "Anti-choking mesh design",
+      Care: "Easy to disassemble and clean",
+    },
+    specificationsAr: {
+      المادة: "سيليكون وبولي بروبلين",
+      الحجم: "6 أشهر فأكثر",
+      السلامة: "تصميم آمن ضد الاختناق",
+      العناية: "سهل الفك والتنظيف",
+    },
+  },
+
+  {
+    id: "31",
+    name: "Silicone Toddler Training Cup",
+    nameAr: "كوب تدريب للأطفال الصغار",
+    slug: "silicone-toddler-training-cup",
+    description:
+      "Soft-touch silicone training cup with ergonomic handles for easy gripping by little hands.",
+    descriptionAr:
+      "كوب تدريب بسيليكون ناعم مع مقابض مريحة لسهولة الإمساك بالأيدي الصغيرة.",
+    price: 28,
+    category: "feeding",
+    images: [
+      {
+        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779808578/17_onyl41.jpg",
+        alt: "Toddler silicone cup",
+      },
+    ],
+    inStock: true,
+    featured: true,
+    rating: 4.8,
+    reviewCount: 131,
+    specifications: {
+      Material: "Premium Silicone",
+      Capacity: "200 ml",
+      Safety: "Non-slip base",
+      Care: "Dishwasher safe",
+    },
+    specificationsAr: {
+      المادة: "سيليكون عالي الجودة",
+      السعة: "200 مل",
+      السلامة: "قاعدة مانعة للانزلاق",
+      العناية: "آمن لغسالة الصحون",
+    },
+  },
+
+  {
+    id: "32",
+    name: "Smart Baby Formula Maker",
+    nameAr: "جهاز ذكي لتحضير حليب الأطفال",
+    slug: "smart-baby-formula-maker",
+    description:
+      "Automatic formula maker prepares warm baby bottles instantly with precise temperature control.",
+    descriptionAr:
+      "جهاز ذكي لتحضير رضاعات الحليب بسرعة مع تحكم دقيق بدرجة الحرارة.",
+    price: 240,
+    category: "feeding",
+    images: [
+      {
+        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779808577/14_dztoxp.jpg",
+        alt: "Smart formula maker",
       },
     ],
     inStock: true,
     featured: true,
     rating: 5.0,
-    reviewCount: 156,
+    reviewCount: 58,
     specifications: {
-      Material: "100% Organic Cotton",
-      Size: "30 cm",
-      Safety: "CE certified, suitable from birth",
-      Care: "Hand wash only",
+      Material: "BPA-Free Plastic",
+      Capacity: "1.2 L",
+      Safety: "Auto shut-off system",
+      Care: "Self-cleaning function",
     },
     specificationsAr: {
-      المادة: "100٪ قطن عضوي",
-      الحجم: "30 سم",
-      السلامة: "معتمد CE، مناسب من الولادة",
-      العناية: "غسيل يدوي فقط",
+      المادة: "بلاستيك خالٍ من BPA",
+      السعة: "1.2 لتر",
+      السلامة: "إيقاف تلقائي آمن",
+      العناية: "خاصية تنظيف ذاتي",
     },
   },
+
   {
-    id: "25",
-    name: "Premium Wooden Toy Set",
-    nameAr: "طقم ألعاب خشبية فاخرة",
-    slug: "premium-wooden-toy-set",
+    id: "33",
+    name: "Bunny Electric Baby Toothbrush",
+    nameAr: "فرشاة أسنان كهربائية للأطفال",
+    slug: "bunny-electric-baby-toothbrush",
     description:
-      "Educational wooden toys made from sustainable beech wood. Set includes blocks, rings, and sorting shapes.",
+      "Cute bunny-shaped electric toothbrush designed for gentle and effective baby oral care.",
     descriptionAr:
-      "ألعاب خشبية تعليمية مصنوعة من خشب الزان المستدام. يتضمن الطقم مكعبات وحلقات وأشكال فرز.",
-    price: 119,
+      "فرشاة أسنان كهربائية بتصميم أرنب لتنظيف لطيف وفعّال لأسنان الأطفال.",
+    price: 39,
     category: "accessories",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1655087751207-1020c89f7eee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
-        alt: "Wooden toy set",
+        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779808577/11_vusbq3.jpg",
+        alt: "Bunny baby toothbrush",
       },
     ],
     inStock: true,
-    new: true,
+    featured: false,
     rating: 4.8,
-    reviewCount: 67,
+    reviewCount: 74,
     specifications: {
-      Material: "Sustainable Beech Wood",
-      "Age Range": "6 months+",
-      Safety: "Non-toxic finish, CE certified",
-      Pieces: "15 pieces",
+      Material: "Soft Silicone Bristles",
+      Battery: "USB Rechargeable",
+      Safety: "Gentle vibration technology",
+      Care: "Replace brush head every 3 months",
     },
     specificationsAr: {
-      المادة: "خشب الزان المستدام",
-      "الفئة العمرية": "6 أشهر+",
-      السلامة: "طلاء غير سام، معتمد CE",
-      القطع: "15 قطعة",
+      المادة: "شعيرات سيليكون ناعمة",
+      البطارية: "قابلة للشحن USB",
+      السلامة: "اهتزازات لطيفة وآمنة",
+      العناية: "تغيير الرأس كل 3 أشهر",
     },
   },
+
   {
-    id: "26",
-    name: "Luxury Muslin Blanket Set",
-    nameAr: "طقم بطانيات موسلين فاخرة",
-    slug: "luxury-muslin-blanket-set",
+    id: "34",
+    name: "Complete Silicone Feeding Set",
+    nameAr: "طقم تغذية سيليكون متكامل",
+    slug: "complete-silicone-feeding-set",
     description:
-      "100% bamboo muslin blankets. Ultra-breathable and gets softer with each wash. Set of 3.",
+      "Premium all-in-one feeding set including plate, cup, bib, spoon, and toddler accessories.",
     descriptionAr:
-      "بطانيات موسلين من الخيزران 100٪. قابلة للتنفس للغاية وتصبح أنعم مع كل غسلة. طقم من 3 قطع.",
-    price: 79,
-    category: "accessories",
+      "طقم تغذية متكامل يشمل طبق وكوب ومريلة وملعقة وإكسسوارات للأطفال.",
+    price: 88,
+    category: "feeding",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1554967651-3997ad1c43b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
-        alt: "Muslin blanket",
+        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779808577/10_atnahc.jpg",
+        alt: "Complete silicone feeding set",
       },
     ],
     inStock: true,
-    bestSeller: true,
-    rating: 4.9,
-    reviewCount: 234,
+    featured: true,
+    rating: 5.0,
+    reviewCount: 211,
     specifications: {
-      Material: "100% Bamboo Muslin",
-      Size: "120 x 120 cm",
-      Features: "Breathable, temperature regulating",
-      Care: "Machine washable",
+      Material: "100% Food-grade Silicone",
+      Pieces: "8-piece set",
+      Safety: "BPA, PVC & phthalate free",
+      Care: "Microwave and dishwasher safe",
     },
     specificationsAr: {
-      المادة: "100٪ موسلين خيزران",
-      الحجم: "120 x 120 سم",
-      المميزات: "قابل للتنفس، تنظيم الحرارة",
-      العناية: "قابل للغسل في الغسالة",
+      المادة: "سيليكون آمن غذائياً 100٪",
+      القطع: "طقم مكون من 8 قطع",
+      السلامة: "خالٍ من BPA وPVC والفثالات",
+      العناية: "آمن للميكروويف وغسالة الصحون",
+    },
+  },
+
+  {
+    id: "35",
+    name: "Minimal Silicone Baby Bib",
+    nameAr: "مريلة أطفال سيليكون بسيطة",
+    slug: "minimal-silicone-baby-bib",
+    description:
+      "Soft waterproof silicone bib with a deep food-catching pocket for mess-free mealtime.",
+    descriptionAr:
+      "مريلة سيليكون ناعمة ومقاومة للماء مع جيب عميق لتجميع الطعام أثناء الوجبات.",
+    price: 24,
+    category: "feeding",
+    images: [
+      {
+        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779808579/38_ivivzr.jpg",
+        alt: "Minimal silicone baby bib",
+      },
+    ],
+    inStock: true,
+    featured: false,
+    rating: 4.9,
+    reviewCount: 117,
+    specifications: {
+      Material: "Food-grade Silicone",
+      Size: "Adjustable Neck Fit",
+      Safety: "BPA & PVC free",
+      Care: "Dishwasher safe",
+    },
+    specificationsAr: {
+      المادة: "سيليكون آمن غذائياً",
+      الحجم: "مقاس قابل للتعديل",
+      السلامة: "خالٍ من BPA وPVC",
+      العناية: "آمنة لغسالة الصحون",
     },
   },
 
   // Nursery Decor
   {
-    id: "27",
+    id: "36",
     name: "Minimalist Wall Mobile",
     nameAr: "موبايل حائط بسيط",
     slug: "minimalist-wall-mobile",
@@ -966,7 +1283,7 @@ export const products: Product[] = [
     },
   },
   {
-    id: "28",
+    id: "37",
     name: "Soft Night Light",
     nameAr: "ضوء ليلي ناعم",
     slug: "soft-night-light",
@@ -1002,7 +1319,7 @@ export const products: Product[] = [
 
   // Baby Essentials
   {
-    id: "29",
+    id: "38",
     name: "Luxury Diaper Bag",
     nameAr: "حقيبة حفاضات فاخرة",
     slug: "luxury-diaper-bag",
@@ -1037,7 +1354,7 @@ export const products: Product[] = [
     },
   },
   {
-    id: "30",
+    id: "39",
     name: "Organic Cotton Swaddle Set",
     nameAr: "طقم قماط قطن عضوي",
     slug: "organic-cotton-swaddle-set",
@@ -1072,7 +1389,7 @@ export const products: Product[] = [
 
   // Gift Sets
   {
-    id: "31",
+    id: "40",
     name: "Newborn Welcome Gift Box",
     nameAr: "صندوق هدية ترحيب بالمولود",
     slug: "newborn-welcome-gift-box",
@@ -1110,7 +1427,7 @@ export const products: Product[] = [
 
   // Feeding Products
   {
-    id: "32",
+    id: "41",
     name: "Silicone Feeding Set",
     nameAr: "طقم تغذية سيليكون",
     slug: "silicone-feeding-set",
@@ -1146,7 +1463,7 @@ export const products: Product[] = [
 
   // Baby Care Prodcuts
   {
-    id: "33",
+    id: "42",
     name: "Baby Powder",
     nameAr: "بودرة أطفال",
     slug: "baby-powder",
@@ -1179,7 +1496,7 @@ export const products: Product[] = [
     },
   },
   {
-    id: "34",
+    id: "43",
     name: "Baby Oil",
     nameAr: "زيت أطفال",
     slug: "baby-oil",
@@ -1211,7 +1528,7 @@ export const products: Product[] = [
     },
   },
   {
-    id: "35",
+    id: "44",
     name: "Baby Shampoo & Conditioner",
     nameAr: "شامبو وبلسم أطفال",
     slug: "baby-shampoo-conditioner",
@@ -1243,7 +1560,7 @@ export const products: Product[] = [
     },
   },
   {
-    id: "36",
+    id: "45",
     name: "Baby Moisturizer",
     nameAr: "مرطب أطفال",
     slug: "baby-moisturizer",
@@ -1275,7 +1592,7 @@ export const products: Product[] = [
     },
   },
   {
-    id: "37",
+    id: "46",
     name: "Baby Perfume",
     nameAr: "عطر أطفال",
     slug: "baby-perfume",
@@ -1307,7 +1624,7 @@ export const products: Product[] = [
     },
   },
   {
-    id: "38",
+    id: "47",
     name: "Baby Shower Gel",
     nameAr: "شاور جل أطفال",
     slug: "baby-shower-gel",
@@ -1340,7 +1657,7 @@ export const products: Product[] = [
     },
   },
   {
-    id: "39",
+    id: "48",
     name: "Baby Hair Serum",
     nameAr: "سيرم شعر أطفال",
     slug: "baby-hair-serum",
