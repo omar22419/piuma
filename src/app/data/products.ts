@@ -239,10 +239,10 @@ export const products: Product[] = [
         url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779808583/WhatsApp_Image_2026-05-26_at_3.32.08_AM_jb2yzg.jpg",
         alt: "Organic cotton onesie",
       },
-      {
-        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779808583/WhatsApp_Image_2026-05-26_at_2.54.24_AM_vov3dd.jpg",
-        alt: "Organic cotton onesie",
-      },
+      // {
+      //   url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779808583/WhatsApp_Image_2026-05-26_at_2.54.24_AM_vov3dd.jpg",
+      //   alt: "Organic cotton onesie",
+      // },
     ],
     inStock: true,
     new: true,
@@ -274,10 +274,10 @@ export const products: Product[] = [
     originalPrice: 159,
     category: "clothing",
     images: [
-      {
-        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779808583/WhatsApp_Image_2026-05-26_at_2.54.26_AM_vb90sj.jpg",
-        alt: "Premium knit cardigan",
-      },
+      // {
+      //   url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779808583/WhatsApp_Image_2026-05-26_at_2.54.26_AM_vb90sj.jpg",
+      //   alt: "Premium knit cardigan",
+      // },
       {
         url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779808580/42_gqd2g9.jpg",
         alt: "Premium knit cardigan",
@@ -312,10 +312,10 @@ export const products: Product[] = [
     price: 159,
     category: "clothing",
     images: [
-      {
-        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779808583/9_lmwcve.jpg",
-        alt: "Luxury romper",
-      },
+      // {
+      //   url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779808583/9_lmwcve.jpg",
+      //   alt: "Luxury romper",
+      // },
       {
         url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779808581/44_nxo1cl.jpg",
         alt: "Luxury romper",
@@ -350,10 +350,10 @@ export const products: Product[] = [
     price: 159,
     category: "clothing",
     images: [
-      {
-        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779808582/WhatsApp_Image_2026-05-26_at_2.54.25_AM_s8a1jw.jpg",
-        alt: "Luxury romper",
-      },
+      // {
+      //   url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779808582/WhatsApp_Image_2026-05-26_at_2.54.25_AM_s8a1jw.jpg",
+      //   alt: "Luxury romper",
+      // },
       {
         url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779808581/43_vndybj.jpg",
         alt: "Luxury romper",
@@ -388,10 +388,10 @@ export const products: Product[] = [
     price: 159,
     category: "clothing",
     images: [
-      {
-        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779808583/7_xwae4h.jpg",
-        alt: "Luxury romper",
-      },
+      // {
+      //   url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779808583/7_xwae4h.jpg",
+      //   alt: "Luxury romper",
+      // },
       {
         url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779808579/29_w3d9vc.jpg",
         alt: "Luxury romper",
@@ -426,10 +426,10 @@ export const products: Product[] = [
     price: 159,
     category: "clothing",
     images: [
-      {
-        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779808582/8_apcmw9.jpg",
-        alt: "Luxury romper",
-      },
+      // {
+      //   url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779808582/8_apcmw9.jpg",
+      //   alt: "Luxury romper",
+      // },
       {
         url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779808579/30_zxq4qg.jpg",
         alt: "Luxury romper",
@@ -452,40 +452,40 @@ export const products: Product[] = [
       المميزات: "إغلاق بالكبسات، أشرطة قابلة للتعديل",
     },
   },
-  {
-    id: "13",
-    name: "Luxury Romper Collection",
-    nameAr: "مجموعة رومبر فاخرة",
-    slug: "luxury-romper-collection",
-    description:
-      "Elegant rompers in premium linen blend. Set of 3 in soft pastels with snap closures for easy changing.",
-    descriptionAr:
-      "رومبر أنيق من خليط الكتان الفاخر. طقم من 3 قطع بألوان باستيل ناعمة مع إغلاق بالكبسات لسهولة التغيير.",
-    price: 159,
-    category: "clothing",
-    images: [
-      {
-        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779808579/13_aof2ql.jpg",
-        alt: "Luxury romper",
-      },
-    ],
-    inStock: true,
-    bestSeller: true,
-    rating: 4.7,
-    reviewCount: 92,
-    specifications: {
-      Material: "Linen-Cotton Blend",
-      Sizes: "0-3M, 3-6M, 6-9M",
-      Colors: "Dusty Rose, Sage, Cream",
-      Features: "Snap closures, adjustable straps",
-    },
-    specificationsAr: {
-      المادة: "خليط كتان-قطن",
-      المقاسات: "0-3 أشهر، 3-6 أشهر، 6-9 أشهر",
-      الألوان: "وردي داكن، أخضر فاتح، كريمي",
-      المميزات: "إغلاق بالكبسات، أشرطة قابلة للتعديل",
-    },
-  },
+  // {
+  //   id: "13",
+  //   name: "Luxury Romper Collection",
+  //   nameAr: "مجموعة رومبر فاخرة",
+  //   slug: "luxury-romper-collection",
+  //   description:
+  //     "Elegant rompers in premium linen blend. Set of 3 in soft pastels with snap closures for easy changing.",
+  //   descriptionAr:
+  //     "رومبر أنيق من خليط الكتان الفاخر. طقم من 3 قطع بألوان باستيل ناعمة مع إغلاق بالكبسات لسهولة التغيير.",
+  //   price: 159,
+  //   category: "clothing",
+  //   images: [
+  //     {
+  //       url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779808579/13_aof2ql.jpg",
+  //       alt: "Luxury romper",
+  //     },
+  //   ],
+  //   inStock: true,
+  //   bestSeller: true,
+  //   rating: 4.7,
+  //   reviewCount: 92,
+  //   specifications: {
+  //     Material: "Linen-Cotton Blend",
+  //     Sizes: "0-3M, 3-6M, 6-9M",
+  //     Colors: "Dusty Rose, Sage, Cream",
+  //     Features: "Snap closures, adjustable straps",
+  //   },
+  //   specificationsAr: {
+  //     المادة: "خليط كتان-قطن",
+  //     المقاسات: "0-3 أشهر، 3-6 أشهر، 6-9 أشهر",
+  //     الألوان: "وردي داكن، أخضر فاتح، كريمي",
+  //     المميزات: "إغلاق بالكبسات، أشرطة قابلة للتعديل",
+  //   },
+  // },
   {
     id: "14",
     name: "Luxury Romper Collection",

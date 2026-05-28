@@ -71,6 +71,52 @@ export function HomePage() {
         </div>
       </section>
 
+      {/* Categories Grid */}
+      <section className="bg-gradient-to-b from-background to-light-gray py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="text-center mb-12"
+          >
+            <h2 className="text-4xl mb-4">{t('categories.title')}</h2>
+          </motion.div>
+
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            {[
+              { name: t('categories.clothing'), category: 'clothing', image: 'https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600' },
+              { name: t('categories.furniture'), category: 'furniture', image: 'https://images.unsplash.com/photo-1774578342155-8d7e44a18bfd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600' },
+              { name: t('categories.accessories'), category: 'accessories', image: 'https://images.unsplash.com/photo-1589737172779-748786ed5ad8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600' },
+              { name: t('categories.babyCare'), category: 'baby care', image: 'https://images.unsplash.com/photo-1716972065448-e08a46809530?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' }
+            ].map((cat, index) => (
+              <motion.div
+                key={cat.category}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.4, delay: index * 0.1 }}
+              >
+                <Link
+                  to={`/shop?category=${cat.category}`}
+                  className="group block relative aspect-square rounded-2xl overflow-hidden"
+                >
+                  <img
+                    src={cat.image}
+                    alt={cat.name}
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-navy/80 to-transparent flex items-end p-6">
+                    <h3 className="text-white text-xl">{cat.name}</h3>
+                  </div>
+                </Link>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Featured Products */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <motion.div
@@ -157,51 +203,7 @@ export function HomePage() {
         </div>
       </section>
 
-      {/* Categories Grid */}
-      <section className="bg-gradient-to-b from-background to-light-gray py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className="text-center mb-12"
-          >
-            <h2 className="text-4xl mb-4">{t('categories.title')}</h2>
-          </motion.div>
-
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            {[
-              { name: t('categories.clothing'), category: 'clothing', image: 'https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600' },
-              { name: t('categories.furniture'), category: 'furniture', image: 'https://images.unsplash.com/photo-1774578342155-8d7e44a18bfd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600' },
-              { name: t('categories.accessories'), category: 'accessories', image: 'https://images.unsplash.com/photo-1589737172779-748786ed5ad8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600' },
-              { name: t('categories.babyCare'), category: 'baby care', image: 'https://images.unsplash.com/photo-1716972065448-e08a46809530?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' }
-            ].map((cat, index) => (
-              <motion.div
-                key={cat.category}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.4, delay: index * 0.1 }}
-              >
-                <Link
-                  to={`/shop?category=${cat.category}`}
-                  className="group block relative aspect-square rounded-2xl overflow-hidden"
-                >
-                  <img
-                    src={cat.image}
-                    alt={cat.name}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-navy/80 to-transparent flex items-end p-6">
-                    <h3 className="text-white text-xl">{cat.name}</h3>
-                  </div>
-                </Link>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
+      
 
       {/* Testimonials */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
