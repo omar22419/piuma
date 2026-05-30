@@ -86,12 +86,12 @@ export function HomePage() {
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {[
-              { name: t('categories.clothing'), category: 'clothing', image: 'https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600' },
-              { name: t('categories.furniture'), category: 'furniture', image: 'https://images.unsplash.com/photo-1774578342155-8d7e44a18bfd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600' },
-              { name: t('categories.accessories'), category: 'accessories', image: 'https://images.unsplash.com/photo-1589737172779-748786ed5ad8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600' },
-              { name: t('categories.feeding'), category: 'feeding', image: 'https://res.cloudinary.com/duexs5wps/image/upload/v1779981301/cat-feeding_pv3g8l.jpg' },
-              { name: t('categories.babyCare'), category: 'baby care', image: 'https://images.unsplash.com/photo-1716972065448-e08a46809530?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
-              { name: t('categories.industry'), category: 'industry', image: 'https://res.cloudinary.com/duexs5wps/image/upload/v1779981464/best-baby-product-brands-on-social-media-featured-image_vq2r5b.jpg' }
+              { name: t('categories.clothing'), category: 'clothing', image: 'https://res.cloudinary.com/duexs5wps/image/upload/v1779981613/WhatsApp_Image_2026-05-28_at_6.18.37_PM_ucz9ij.jpg' },
+              { name: t('categories.furniture'), category: 'furniture', image: 'https://res.cloudinary.com/duexs5wps/image/upload/v1780114978/WhatsApp_Image_2026-05-28_at_6.11.47_PM_bzifxv.jpg' },
+              { name: t('categories.nursery'), category: 'nursery', image: 'https://res.cloudinary.com/duexs5wps/image/upload/v1780115101/WhatsApp_Image_2026-05-28_at_6.20.31_PM_rpaaok.jpg' },
+              { name: t('categories.feeding'), category: 'feeding', image: 'https://res.cloudinary.com/duexs5wps/image/upload/v1779981612/WhatsApp_Image_2026-05-28_at_6.15.12_PM_bjd6ab.jpg' },
+              { name: t('categories.babyCare'), category: 'baby care', image: 'https://res.cloudinary.com/duexs5wps/image/upload/v1779981613/WhatsApp_Image_2026-05-28_at_6.15.32_PM_wuy56z.jpg' },
+              { name: t('categories.industry'), category: 'industry', image: 'https://res.cloudinary.com/duexs5wps/image/upload/v1779981612/WhatsApp_Image_2026-05-28_at_6.13.43_PM_ngjcff.jpg' }
             ].map((cat, index) => (
               <motion.div
                 key={cat.category}

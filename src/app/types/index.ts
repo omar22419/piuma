@@ -7,7 +7,8 @@ export type Category =
   | 'nursery'
   | 'feeding'
   | 'baby care'
-  | 'gifts';
+  | 'gifts'
+  | 'industry';
 
 export interface ProductImage {
   url: string;

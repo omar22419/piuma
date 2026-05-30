@@ -24,7 +24,8 @@
     "nursery": "Nursery Decor",
     "feeding": "Feeding Products",
     "gifts": "Gift Sets",
-    "babyCare": "Baby Care"
+    "babyCare": "Baby Care",
+    "industry":"Baby industry"
   },
   "product": {
     "addToCart": "Add to Cart",

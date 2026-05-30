@@ -225,11 +225,10 @@ export const products: Product[] = [
   // Baby Clothing
   {
     id: "7",
-    name: "Organic Cotton Onesie Set",
+    name: "Lace Collar Dress",
     nameAr: "طقم بدلة قطن عضوي",
-    slug: "organic-cotton-onesie-set",
-    description:
-      "Ultra-soft 100% organic cotton onesies. Set of 5 in neutral tones. GOTS certified sustainable fabric.",
+    slug: "lace-collar-dress",
+    description: " Navy dress with lace collar and ribbon detail.",
     descriptionAr:
       "بدلات قطن عضوي 100٪ ناعمة للغاية. طقم من 5 قطع بألوان محايدة. قماش مستدام معتمد من GOTS.",
     price: 89,
@@ -263,11 +262,10 @@ export const products: Product[] = [
   },
   {
     id: "8",
-    name: "Premium Knit Cardigan",
+    name: "1. Elegant Statement Bow Dress",
     nameAr: "كارديجان محبوك فاخر",
-    slug: "premium-knit-cardigan",
-    description:
-      "Hand-knitted merino wool cardigan with wooden buttons. Perfect for layering in any season.",
+    slug: "elegant-statement-bow-dress",
+    description: "Burgundy dress with oversized bow.",
     descriptionAr:
       "كارديجان صوف ميرينو محبوك يدوياً مع أزرار خشبية. مثالي للطبقات في أي موسم.",
     price: 129,
@@ -302,11 +300,10 @@ export const products: Product[] = [
   },
   {
     id: "9",
-    name: "Luxury Romper Collection",
+    name: "Minimal Grey Peplum Dress",
     nameAr: "مجموعة رومبر فاخرة",
-    slug: "luxury-romper-collection",
-    description:
-      "Elegant rompers in premium linen blend. Set of 3 in soft pastels with snap closures for easy changing.",
+    slug: "minimal-grey-peplum-dress",
+    description: "Striped dress with flutter sleeves.",
     descriptionAr:
       "رومبر أنيق من خليط الكتان الفاخر. طقم من 3 قطع بألوان باستيل ناعمة مع إغلاق بالكبسات لسهولة التغيير.",
     price: 159,
@@ -340,11 +337,10 @@ export const products: Product[] = [
   },
   {
     id: "10",
-    name: "Luxury Romper Collection",
+    name: "Faux Fur Coat",
     nameAr: "مجموعة رومبر فاخرة",
-    slug: "luxury-romper-collection",
-    description:
-      "Elegant rompers in premium linen blend. Set of 3 in soft pastels with snap closures for easy changing.",
+    slug: "faux-fur-coat",
+    description: "Grey textured coat with faux fur collar and cuffs.",
     descriptionAr:
       "رومبر أنيق من خليط الكتان الفاخر. طقم من 3 قطع بألوان باستيل ناعمة مع إغلاق بالكبسات لسهولة التغيير.",
     price: 159,
@@ -378,11 +374,10 @@ export const products: Product[] = [
   },
   {
     id: "11",
-    name: "Luxury Romper Collection",
+    name: "Floral Collar Sweater",
     nameAr: "مجموعة رومبر فاخرة",
-    slug: "luxury-romper-collection",
-    description:
-      "Elegant rompers in premium linen blend. Set of 3 in soft pastels with snap closures for easy changing.",
+    slug: "floral-collar-sweater",
+    description: "Cream knitted sweater with floral oversized collar.",
     descriptionAr:
       "رومبر أنيق من خليط الكتان الفاخر. طقم من 3 قطع بألوان باستيل ناعمة مع إغلاق بالكبسات لسهولة التغيير.",
     price: 159,
@@ -416,11 +411,10 @@ export const products: Product[] = [
   },
   {
     id: "12",
-    name: "Luxury Romper Collection",
+    name: "Ruffle Wrap Cardigan",
     nameAr: "مجموعة رومبر فاخرة",
-    slug: "luxury-romper-collection",
-    description:
-      "Elegant rompers in premium linen blend. Set of 3 in soft pastels with snap closures for easy changing.",
+    slug: "ruffle-wrap-cardigan",
+    description: " Pink wrap cardigan with ruffle trim.",
     descriptionAr:
       "رومبر أنيق من خليط الكتان الفاخر. طقم من 3 قطع بألوان باستيل ناعمة مع إغلاق بالكبسات لسهولة التغيير.",
     price: 159,
@@ -487,12 +481,11 @@ export const products: Product[] = [
   //   },
   // },
   {
-    id: "14",
-    name: "Luxury Romper Collection",
+    id: "13",
+    name: "Soft Cotton Baby Socks Set",
     nameAr: "مجموعة رومبر فاخرة",
-    slug: "luxury-romper-collection",
-    description:
-      "Elegant rompers in premium linen blend. Set of 3 in soft pastels with snap closures for easy changing.",
+    slug: "soft-cotton-baby-socks-set",
+    description: "Soft pastel baby socks.",
     descriptionAr:
       "رومبر أنيق من خليط الكتان الفاخر. طقم من 3 قطع بألوان باستيل ناعمة مع إغلاق بالكبسات لسهولة التغيير.",
     price: 159,
@@ -520,47 +513,46 @@ export const products: Product[] = [
       المميزات: "إغلاق بالكبسات، أشرطة قابلة للتعديل",
     },
   },
+  // {
+  //   id: "15",
+  //   name: "Luxury Romper Collection",
+  //   nameAr: "مجموعة رومبر فاخرة",
+  //   slug: "luxury-romper-collection",
+  //   description:
+  //     "Elegant rompers in premium linen blend. Set of 3 in soft pastels with snap closures for easy changing.",
+  //   descriptionAr:
+  //     "رومبر أنيق من خليط الكتان الفاخر. طقم من 3 قطع بألوان باستيل ناعمة مع إغلاق بالكبسات لسهولة التغيير.",
+  //   price: 159,
+  //   category: "clothing",
+  //   images: [
+  //     {
+  //       url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779808575/16_sz6kyd.jpg",
+  //       alt: "Luxury romper",
+  //     },
+  //   ],
+  //   inStock: true,
+  //   bestSeller: true,
+  //   rating: 4.7,
+  //   reviewCount: 92,
+  //   specifications: {
+  //     Material: "Linen-Cotton Blend",
+  //     Sizes: "0-3M, 3-6M, 6-9M",
+  //     Colors: "Dusty Rose, Sage, Cream",
+  //     Features: "Snap closures, adjustable straps",
+  //   },
+  //   specificationsAr: {
+  //     المادة: "خليط كتان-قطن",
+  //     المقاسات: "0-3 أشهر، 3-6 أشهر، 6-9 أشهر",
+  //     الألوان: "وردي داكن، أخضر فاتح، كريمي",
+  //     المميزات: "إغلاق بالكبسات، أشرطة قابلة للتعديل",
+  //   },
+  // },
   {
-    id: "15",
-    name: "Luxury Romper Collection",
+    id: "14",
+    name: "Classic Collar Sweater Dress Set",
     nameAr: "مجموعة رومبر فاخرة",
-    slug: "luxury-romper-collection",
-    description:
-      "Elegant rompers in premium linen blend. Set of 3 in soft pastels with snap closures for easy changing.",
-    descriptionAr:
-      "رومبر أنيق من خليط الكتان الفاخر. طقم من 3 قطع بألوان باستيل ناعمة مع إغلاق بالكبسات لسهولة التغيير.",
-    price: 159,
-    category: "clothing",
-    images: [
-      {
-        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779808575/16_sz6kyd.jpg",
-        alt: "Luxury romper",
-      },
-    ],
-    inStock: true,
-    bestSeller: true,
-    rating: 4.7,
-    reviewCount: 92,
-    specifications: {
-      Material: "Linen-Cotton Blend",
-      Sizes: "0-3M, 3-6M, 6-9M",
-      Colors: "Dusty Rose, Sage, Cream",
-      Features: "Snap closures, adjustable straps",
-    },
-    specificationsAr: {
-      المادة: "خليط كتان-قطن",
-      المقاسات: "0-3 أشهر، 3-6 أشهر، 6-9 أشهر",
-      الألوان: "وردي داكن، أخضر فاتح، كريمي",
-      المميزات: "إغلاق بالكبسات، أشرطة قابلة للتعديل",
-    },
-  },
-  {
-    id: "16",
-    name: "Luxury Romper Collection",
-    nameAr: "مجموعة رومبر فاخرة",
-    slug: "luxury-romper-collection",
-    description:
-      "Elegant rompers in premium linen blend. Set of 3 in soft pastels with snap closures for easy changing.",
+    slug: "classic-collar-sweater-dress-set",
+    description: "White dress set with blue collar.",
     descriptionAr:
       "رومبر أنيق من خليط الكتان الفاخر. طقم من 3 قطع بألوان باستيل ناعمة مع إغلاق بالكبسات لسهولة التغيير.",
     price: 159,
@@ -588,115 +580,112 @@ export const products: Product[] = [
       المميزات: "إغلاق بالكبسات، أشرطة قابلة للتعديل",
     },
   },
+  // {
+  //   id: "17",
+  //   name: "Luxury Romper Collection",
+  //   nameAr: "مجموعة رومبر فاخرة",
+  //   slug: "luxury-romper-collection",
+  //   description:
+  //     "Elegant rompers in premium linen blend. Set of 3 in soft pastels with snap closures for easy changing.",
+  //   descriptionAr:
+  //     "رومبر أنيق من خليط الكتان الفاخر. طقم من 3 قطع بألوان باستيل ناعمة مع إغلاق بالكبسات لسهولة التغيير.",
+  //   price: 159,
+  //   category: "clothing",
+  //   images: [
+  //     {
+  //       url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779808576/35_cwjcwh.jpg",
+  //       alt: "Luxury romper",
+  //     },
+  //   ],
+  //   inStock: true,
+  //   bestSeller: true,
+  //   rating: 4.7,
+  //   reviewCount: 92,
+  //   specifications: {
+  //     Material: "Linen-Cotton Blend",
+  //     Sizes: "0-3M, 3-6M, 6-9M",
+  //     Colors: "Dusty Rose, Sage, Cream",
+  //     Features: "Snap closures, adjustable straps",
+  //   },
+  //   specificationsAr: {
+  //     المادة: "خليط كتان-قطن",
+  //     المقاسات: "0-3 أشهر، 3-6 أشهر، 6-9 أشهر",
+  //     الألوان: "وردي داكن، أخضر فاتح، كريمي",
+  //     المميزات: "إغلاق بالكبسات، أشرطة قابلة للتعديل",
+  //   },
+  // },
+  {
+    id: "15",
+    name: "Classic Flutter Sleeve Dress",
+    nameAr: "مجموعة رومبر فاخرة",
+    slug: "classic-flutter-sleeve-dress",
+    description: " Striped dress with flutter sleeves.",
+    descriptionAr:
+      "رومبر أنيق من خليط الكتان الفاخر. طقم من 3 قطع بألوان باستيل ناعمة مع إغلاق بالكبسات لسهولة التغيير.",
+    price: 159,
+    category: "clothing",
+    images: [
+      {
+        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1780112064/WhatsApp_Image_2026-05-28_at_7.52.10_PM_pcidtf.jpg",
+        alt: "Luxury romper",
+      },
+    ],
+    inStock: true,
+    bestSeller: true,
+    rating: 4.7,
+    reviewCount: 92,
+    specifications: {
+      Material: "Linen-Cotton Blend",
+      Sizes: "0-3M, 3-6M, 6-9M",
+      Colors: "Dusty Rose, Sage, Cream",
+      Features: "Snap closures, adjustable straps",
+    },
+    specificationsAr: {
+      المادة: "خليط كتان-قطن",
+      المقاسات: "0-3 أشهر، 3-6 أشهر، 6-9 أشهر",
+      الألوان: "وردي داكن، أخضر فاتح، كريمي",
+      المميزات: "إغلاق بالكبسات، أشرطة قابلة للتعديل",
+    },
+  },
+  {
+    id: "16",
+    name: "Preppy Pleated Dress",
+    nameAr: "مجموعة رومبر فاخرة",
+    slug: "preppy-pleated-dress",
+    description: "Navy sleeveless dress with pleated hem.",
+    descriptionAr:
+      "رومبر أنيق من خليط الكتان الفاخر. طقم من 3 قطع بألوان باستيل ناعمة مع إغلاق بالكبسات لسهولة التغيير.",
+    price: 159,
+    category: "clothing",
+    images: [
+      {
+        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779808579/41_m0shtk.jpg",
+        alt: "Luxury romper",
+      },
+    ],
+    inStock: true,
+    bestSeller: true,
+    rating: 4.7,
+    reviewCount: 92,
+    specifications: {
+      Material: "Linen-Cotton Blend",
+      Sizes: "0-3M, 3-6M, 6-9M",
+      Colors: "Dusty Rose, Sage, Cream",
+      Features: "Snap closures, adjustable straps",
+    },
+    specificationsAr: {
+      المادة: "خليط كتان-قطن",
+      المقاسات: "0-3 أشهر، 3-6 أشهر، 6-9 أشهر",
+      الألوان: "وردي داكن، أخضر فاتح، كريمي",
+      المميزات: "إغلاق بالكبسات، أشرطة قابلة للتعديل",
+    },
+  },
   {
     id: "17",
-    name: "Luxury Romper Collection",
+    name: "Printed Baby Booties",
     nameAr: "مجموعة رومبر فاخرة",
-    slug: "luxury-romper-collection",
-    description:
-      "Elegant rompers in premium linen blend. Set of 3 in soft pastels with snap closures for easy changing.",
-    descriptionAr:
-      "رومبر أنيق من خليط الكتان الفاخر. طقم من 3 قطع بألوان باستيل ناعمة مع إغلاق بالكبسات لسهولة التغيير.",
-    price: 159,
-    category: "clothing",
-    images: [
-      {
-        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779808576/35_cwjcwh.jpg",
-        alt: "Luxury romper",
-      },
-    ],
-    inStock: true,
-    bestSeller: true,
-    rating: 4.7,
-    reviewCount: 92,
-    specifications: {
-      Material: "Linen-Cotton Blend",
-      Sizes: "0-3M, 3-6M, 6-9M",
-      Colors: "Dusty Rose, Sage, Cream",
-      Features: "Snap closures, adjustable straps",
-    },
-    specificationsAr: {
-      المادة: "خليط كتان-قطن",
-      المقاسات: "0-3 أشهر، 3-6 أشهر، 6-9 أشهر",
-      الألوان: "وردي داكن، أخضر فاتح، كريمي",
-      المميزات: "إغلاق بالكبسات، أشرطة قابلة للتعديل",
-    },
-  },
-  {
-    id: "18",
-    name: "Luxury Romper Collection",
-    nameAr: "مجموعة رومبر فاخرة",
-    slug: "luxury-romper-collection",
-    description:
-      "Elegant rompers in premium linen blend. Set of 3 in soft pastels with snap closures for easy changing.",
-    descriptionAr:
-      "رومبر أنيق من خليط الكتان الفاخر. طقم من 3 قطع بألوان باستيل ناعمة مع إغلاق بالكبسات لسهولة التغيير.",
-    price: 159,
-    category: "clothing",
-    images: [
-      {
-        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779808576/31_ynip8x.jpg",
-        alt: "Luxury romper",
-      },
-    ],
-    inStock: true,
-    bestSeller: true,
-    rating: 4.7,
-    reviewCount: 92,
-    specifications: {
-      Material: "Linen-Cotton Blend",
-      Sizes: "0-3M, 3-6M, 6-9M",
-      Colors: "Dusty Rose, Sage, Cream",
-      Features: "Snap closures, adjustable straps",
-    },
-    specificationsAr: {
-      المادة: "خليط كتان-قطن",
-      المقاسات: "0-3 أشهر، 3-6 أشهر، 6-9 أشهر",
-      الألوان: "وردي داكن، أخضر فاتح، كريمي",
-      المميزات: "إغلاق بالكبسات، أشرطة قابلة للتعديل",
-    },
-  },
-  {
-    id: "19",
-    name: "Luxury Romper Collection",
-    nameAr: "مجموعة رومبر فاخرة",
-    slug: "luxury-romper-collection",
-    description:
-      "Elegant rompers in premium linen blend. Set of 3 in soft pastels with snap closures for easy changing.",
-    descriptionAr:
-      "رومبر أنيق من خليط الكتان الفاخر. طقم من 3 قطع بألوان باستيل ناعمة مع إغلاق بالكبسات لسهولة التغيير.",
-    price: 159,
-    category: "clothing",
-    images: [
-      {
-        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779808576/33_y6qwnc.jpg",
-        alt: "Luxury romper",
-      },
-    ],
-    inStock: true,
-    bestSeller: true,
-    rating: 4.7,
-    reviewCount: 92,
-    specifications: {
-      Material: "Linen-Cotton Blend",
-      Sizes: "0-3M, 3-6M, 6-9M",
-      Colors: "Dusty Rose, Sage, Cream",
-      Features: "Snap closures, adjustable straps",
-    },
-    specificationsAr: {
-      المادة: "خليط كتان-قطن",
-      المقاسات: "0-3 أشهر، 3-6 أشهر، 6-9 أشهر",
-      الألوان: "وردي داكن، أخضر فاتح، كريمي",
-      المميزات: "إغلاق بالكبسات، أشرطة قابلة للتعديل",
-    },
-  },
-  {
-    id: "20",
-    name: "Luxury Romper Collection",
-    nameAr: "مجموعة رومبر فاخرة",
-    slug: "luxury-romper-collection",
-    description:
-      "Elegant rompers in premium linen blend. Set of 3 in soft pastels with snap closures for easy changing.",
+    slug: "printed-baby-booties",
+    description: " Soft printed baby booties with bow detail.",
     descriptionAr:
       "رومبر أنيق من خليط الكتان الفاخر. طقم من 3 قطع بألوان باستيل ناعمة مع إغلاق بالكبسات لسهولة التغيير.",
     price: 159,
@@ -725,12 +714,11 @@ export const products: Product[] = [
     },
   },
   {
-    id: "21",
-    name: "Luxury Romper Collection",
+    id: "18",
+    name: "Pink Slide Sandals",
     nameAr: "مجموعة رومبر فاخرة",
-    slug: "luxury-romper-collection",
-    description:
-      "Elegant rompers in premium linen blend. Set of 3 in soft pastels with snap closures for easy changing.",
+    slug: "pink-slide-sandals",
+    description: "Simple pink open-toe sandals.",
     descriptionAr:
       "رومبر أنيق من خليط الكتان الفاخر. طقم من 3 قطع بألوان باستيل ناعمة مع إغلاق بالكبسات لسهولة التغيير.",
     price: 159,
@@ -759,12 +747,11 @@ export const products: Product[] = [
     },
   },
   {
-    id: "22",
-    name: "Luxury Romper Collection",
+    id: "19",
+    name: "Mini Mary Jane Shoes",
     nameAr: "مجموعة رومبر فاخرة",
-    slug: "luxury-romper-collection",
-    description:
-      "Elegant rompers in premium linen blend. Set of 3 in soft pastels with snap closures for easy changing.",
+    slug: "mini-mary-jane-shoes",
+    description: " Soft baby shoes with strap closure.",
     descriptionAr:
       "رومبر أنيق من خليط الكتان الفاخر. طقم من 3 قطع بألوان باستيل ناعمة مع إغلاق بالكبسات لسهولة التغيير.",
     price: 159,
@@ -793,19 +780,18 @@ export const products: Product[] = [
     },
   },
   {
-    id: "23",
-    name: "Luxury Romper Collection",
+    id: "20",
+    name: "Nautical Stripe Ruffle Dress",
     nameAr: "مجموعة رومبر فاخرة",
-    slug: "luxury-romper-collection",
-    description:
-      "Elegant rompers in premium linen blend. Set of 3 in soft pastels with snap closures for easy changing.",
+    slug: "nautical-stripe-ruffle-dress",
+    description: "Striped dress with tied straps and ruffle hem.",
     descriptionAr:
       "رومبر أنيق من خليط الكتان الفاخر. طقم من 3 قطع بألوان باستيل ناعمة مع إغلاق بالكبسات لسهولة التغيير.",
     price: 159,
     category: "clothing",
     images: [
       {
-        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779808575/25_g9107z.jpg",
+        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779808579/40_ngpsan.jpg",
         alt: "Luxury romper",
       },
     ],
@@ -829,7 +815,7 @@ export const products: Product[] = [
 
   // Baby Accessories
   {
-    id: "24",
+    id: "21",
     name: "Luxury Baby Glass Bottle Set",
     nameAr: "مجموعة رضاعة زجاجية فاخرة",
     slug: "luxury-baby-glass-bottle-set",
@@ -841,7 +827,7 @@ export const products: Product[] = [
     category: "feeding",
     images: [
       {
-        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779808578/15_sikpvp.jpg",
+        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1780113407/6_vtyj0n.jpg",
         alt: "Luxury baby bottle set",
       },
     ],
@@ -864,7 +850,7 @@ export const products: Product[] = [
   },
 
   {
-    id: "25",
+    id: "22",
     name: "Bear Shape Baby Pacifier",
     nameAr: "لهاية أطفال بتصميم الدب",
     slug: "bear-shape-baby-pacifier",
@@ -899,7 +885,7 @@ export const products: Product[] = [
   },
 
   {
-    id: "26",
+    id: "23",
     name: "Flower Silicone Pacifier",
     nameAr: "لهاية سيليكون بتصميم زهرة",
     slug: "flower-silicone-pacifier",
@@ -907,10 +893,10 @@ export const products: Product[] = [
       "Soft floral-inspired pacifier designed to comfort babies with a soothing natural feel.",
     descriptionAr: "لهاية ناعمة بتصميم زهري مريح لتهدئة الأطفال بإحساس طبيعي.",
     price: 20,
-    category: "accessories",
+    category: "feeding",
     images: [
       {
-        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779808578/32_xbhxsl.jpg",
+        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1780113404/3_ryetvg.jpg",
         alt: "Flower silicone pacifier",
       },
     ],
@@ -933,7 +919,7 @@ export const products: Product[] = [
   },
 
   {
-    id: "27",
+    id: "24",
     name: "Portable Baby Wipes Warmer",
     nameAr: "جهاز تدفئة مناديل الأطفال",
     slug: "portable-baby-wipes-warmer",
@@ -942,10 +928,10 @@ export const products: Product[] = [
     descriptionAr:
       "جهاز عصري يحافظ على مناديل الأطفال دافئة ورطبة لتغيير حفاضات أكثر راحة.",
     price: 95,
-    category: "accessories",
+    category: "industry",
     images: [
       {
-        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779808578/21_a1h07o.jpg",
+        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1780113340/WhatsApp_Image_2026-05-28_at_7.02.55_PM_s5xxd5.jpg",
         alt: "Baby wipes warmer",
       },
     ],
@@ -968,7 +954,7 @@ export const products: Product[] = [
   },
 
   {
-    id: "28",
+    id: "25",
     name: "Dinosaur Baby Thermometer",
     nameAr: "ترمومتر أطفال بتصميم ديناصور",
     slug: "dinosaur-baby-thermometer",
@@ -980,7 +966,7 @@ export const products: Product[] = [
     category: "accessories",
     images: [
       {
-        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779808578/20_lk6qdv.jpg",
+        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1780113339/5_rcyqiy.jpg",
         alt: "Dinosaur baby thermometer",
       },
     ],
@@ -1003,7 +989,7 @@ export const products: Product[] = [
   },
 
   {
-    id: "29",
+    id: "26",
     name: "Silicone Straw Training Cup",
     nameAr: "كوب تدريب بسيليكون وشفاط",
     slug: "silicone-straw-training-cup",
@@ -1015,7 +1001,7 @@ export const products: Product[] = [
     category: "feeding",
     images: [
       {
-        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779808578/18_kvhfjc.jpg",
+        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1780113404/2_uwzchx.jpg",
         alt: "Silicone straw training cup",
       },
     ],
@@ -1038,7 +1024,7 @@ export const products: Product[] = [
   },
 
   {
-    id: "30",
+    id: "27",
     name: "Baby Fruit Feeder Pacifier",
     nameAr: "لهاية تغذية الفواكه للأطفال",
     slug: "baby-fruit-feeder-pacifier",
@@ -1073,7 +1059,7 @@ export const products: Product[] = [
   },
 
   {
-    id: "31",
+    id: "28",
     name: "Silicone Toddler Training Cup",
     nameAr: "كوب تدريب للأطفال الصغار",
     slug: "silicone-toddler-training-cup",
@@ -1108,7 +1094,7 @@ export const products: Product[] = [
   },
 
   {
-    id: "32",
+    id: "29",
     name: "Smart Baby Formula Maker",
     nameAr: "جهاز ذكي لتحضير حليب الأطفال",
     slug: "smart-baby-formula-maker",
@@ -1143,7 +1129,7 @@ export const products: Product[] = [
   },
 
   {
-    id: "33",
+    id: "30",
     name: "Bunny Electric Baby Toothbrush",
     nameAr: "فرشاة أسنان كهربائية للأطفال",
     slug: "bunny-electric-baby-toothbrush",
@@ -1152,10 +1138,10 @@ export const products: Product[] = [
     descriptionAr:
       "فرشاة أسنان كهربائية بتصميم أرنب لتنظيف لطيف وفعّال لأسنان الأطفال.",
     price: 39,
-    category: "accessories",
+    category: "feeding",
     images: [
       {
-        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779808577/11_vusbq3.jpg",
+        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1780113340/WhatsApp_Image_2026-05-28_at_7.02.56_PM_kyk0kg.jpg",
         alt: "Bunny baby toothbrush",
       },
     ],
@@ -1178,7 +1164,7 @@ export const products: Product[] = [
   },
 
   {
-    id: "34",
+    id: "31",
     name: "Complete Silicone Feeding Set",
     nameAr: "طقم تغذية سيليكون متكامل",
     slug: "complete-silicone-feeding-set",
@@ -1190,7 +1176,7 @@ export const products: Product[] = [
     category: "feeding",
     images: [
       {
-        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779808577/10_atnahc.jpg",
+        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1780113406/5_mvsehz.jpg",
         alt: "Complete silicone feeding set",
       },
     ],
@@ -1213,7 +1199,7 @@ export const products: Product[] = [
   },
 
   {
-    id: "35",
+    id: "32",
     name: "Minimal Silicone Baby Bib",
     nameAr: "مريلة أطفال سيليكون بسيطة",
     slug: "minimal-silicone-baby-bib",
@@ -1225,7 +1211,7 @@ export const products: Product[] = [
     category: "feeding",
     images: [
       {
-        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779808579/38_ivivzr.jpg",
+        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1780113407/7_mzrj0w.jpg",
         alt: "Minimal silicone baby bib",
       },
     ],
@@ -1247,223 +1233,462 @@ export const products: Product[] = [
     },
   },
 
-  // Nursery Decor
+  {
+    id: "33",
+    name: "Cloud Plush Pillow",
+    nameAr: "مريلة أطفال سيليكون بسيطة",
+    slug: "cloud-plush-pillow",
+    description: "Soft cloud-shaped nursery pillow with fluffy fabric.",
+    descriptionAr:
+      "مريلة سيليكون ناعمة ومقاومة للماء مع جيب عميق لتجميع الطعام أثناء الوجبات.",
+    price: 24,
+    category: "industry",
+    images: [
+      {
+        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1780113341/13_fmxh6o.jpg",
+        alt: "Cloud Plush Pillow",
+      },
+    ],
+    inStock: true,
+    featured: false,
+    rating: 4.9,
+    reviewCount: 117,
+    specifications: {
+      Material: "Food-grade Silicone",
+      Size: "Adjustable Neck Fit",
+      Safety: "BPA & PVC free",
+      Care: "Dishwasher safe",
+    },
+    specificationsAr: {
+      المادة: "سيليكون آمن غذائياً",
+      الحجم: "مقاس قابل للتعديل",
+      السلامة: "خالٍ من BPA وPVC",
+      العناية: "آمنة لغسالة الصحون",
+    },
+  },
+
+  {
+    id: "34",
+    name: "Animal Height Growth Chart",
+    nameAr: "مريلة أطفال سيليكون بسيطة",
+    slug: "animal-height-growth-chart",
+    description: "Wall height tracker with cute animal shapes and soft lighting.",
+    descriptionAr:
+      "مريلة سيليكون ناعمة ومقاومة للماء مع جيب عميق لتجميع الطعام أثناء الوجبات.",
+    price: 24,
+    category: "industry",
+    images: [
+      {
+        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1780113338/12_didmxq.jpg",
+        alt: "Animal Height Growth Chart",
+      },
+    ],
+    inStock: true,
+    featured: false,
+    rating: 4.9,
+    reviewCount: 117,
+    specifications: {
+      Material: "Food-grade Silicone",
+      Size: "Adjustable Neck Fit",
+      Safety: "BPA & PVC free",
+      Care: "Dishwasher safe",
+    },
+    specificationsAr: {
+      المادة: "سيليكون آمن غذائياً",
+      الحجم: "مقاس قابل للتعديل",
+      السلامة: "خالٍ من BPA وPVC",
+      العناية: "آمنة لغسالة الصحون",
+    },
+  },
+
+  {
+    id: "35",
+    name: "Deer Night Light",
+    nameAr: "مريلة أطفال سيليكون بسيطة",
+    slug: "deer-night-light",
+    description: "Animal-shaped decorative lamp with warm lighting.",
+    descriptionAr:
+      "مريلة سيليكون ناعمة ومقاومة للماء مع جيب عميق لتجميع الطعام أثناء الوجبات.",
+    price: 24,
+    category: "industry",
+    images: [
+      {
+        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1780113338/11_hjiumn.jpg",
+        alt: "Animal Height Growth Chart",
+      },
+    ],
+    inStock: true,
+    featured: false,
+    rating: 4.9,
+    reviewCount: 117,
+    specifications: {
+      Material: "Food-grade Silicone",
+      Size: "Adjustable Neck Fit",
+      Safety: "BPA & PVC free",
+      Care: "Dishwasher safe",
+    },
+    specificationsAr: {
+      المادة: "سيليكون آمن غذائياً",
+      الحجم: "مقاس قابل للتعديل",
+      السلامة: "خالٍ من BPA وPVC",
+      العناية: "آمنة لغسالة الصحون",
+    },
+  },
+
   {
     id: "36",
-    name: "Minimalist Wall Mobile",
-    nameAr: "موبايل حائط بسيط",
-    slug: "minimalist-wall-mobile",
-    description:
-      "Handcrafted wooden mobile with natural elements. Creates gentle movement and visual stimulation.",
+    name: "Woven Animal Storage Basket",
+    nameAr: "مريلة أطفال سيليكون بسيطة",
+    slug: "woven-animal-storage-basket",
+    description: "Animal-shaped woven basket made from natural fibers.",
     descriptionAr:
-      "موبايل خشبي مصنوع يدوياً بعناصر طبيعية. يخلق حركة لطيفة وتحفيز بصري.",
-    price: 95,
-    category: "nursery",
+      "مريلة سيليكون ناعمة ومقاومة للماء مع جيب عميق لتجميع الطعام أثناء الوجبات.",
+    price: 24,
+    category: "industry",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1507225569774-01484cd2f269?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
-        alt: "Wall mobile",
+        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1780113338/10_ar8fvw.jpg",
+        alt: "Animal Height Growth Chart",
       },
     ],
     inStock: true,
-    featured: true,
-    rating: 4.8,
-    reviewCount: 89,
+    featured: false,
+    rating: 4.9,
+    reviewCount: 117,
     specifications: {
-      Material: "Natural Wood & Cotton",
-      Dimensions: "60 cm diameter",
-      Style: "Scandinavian minimalist",
-      Installation: "Ceiling mount included",
+      Material: "Food-grade Silicone",
+      Size: "Adjustable Neck Fit",
+      Safety: "BPA & PVC free",
+      Care: "Dishwasher safe",
     },
     specificationsAr: {
-      المادة: "خشب طبيعي وقطن",
-      الأبعاد: "60 سم قطر",
-      النمط: "إسكندنافي بسيط",
-      التركيب: "حامل سقف مدرج",
+      المادة: "سيليكون آمن غذائياً",
+      الحجم: "مقاس قابل للتعديل",
+      السلامة: "خالٍ من BPA وPVC",
+      العناية: "آمنة لغسالة الصحون",
     },
   },
+
   {
     id: "37",
-    name: "Soft Night Light",
-    nameAr: "ضوء ليلي ناعم",
-    slug: "soft-night-light",
-    description:
-      "Gentle LED night light with adjustable brightness. USB rechargeable with 12-hour battery life.",
+    name: "Rattan Storage Bench",
+    nameAr: "مريلة أطفال سيليكون بسيطة",
+    slug: "rattan-storage-bench",
+    description: "Natural rattan bench with hidden storage space.",
     descriptionAr:
-      "ضوء ليلي LED لطيف مع سطوع قابل للتعديل. قابل لإعادة الشحن عبر USB مع عمر بطارية 12 ساعة.",
-    price: 49,
-    category: "nursery",
+      "مريلة سيليكون ناعمة ومقاومة للماء مع جيب عميق لتجميع الطعام أثناء الوجبات.",
+    price: 24,
+    category: "industry",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1749703996043-f9a937fe6d52?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
-        alt: "Night light",
+        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1780113337/9_gxygus.jpg",
+        alt: "Animal Height Growth Chart",
       },
     ],
     inStock: true,
-    new: true,
-    rating: 4.7,
-    reviewCount: 112,
+    featured: false,
+    rating: 4.9,
+    reviewCount: 117,
     specifications: {
-      Type: "LED with dimmer",
-      Battery: "12 hours",
-      Charging: "USB-C",
-      Brightness: "3 levels",
+      Material: "Food-grade Silicone",
+      Size: "Adjustable Neck Fit",
+      Safety: "BPA & PVC free",
+      Care: "Dishwasher safe",
     },
     specificationsAr: {
-      النوع: "LED مع خافت",
-      البطارية: "12 ساعة",
-      الشحن: "USB-C",
-      السطوع: "3 مستويات",
+      المادة: "سيليكون آمن غذائياً",
+      الحجم: "مقاس قابل للتعديل",
+      السلامة: "خالٍ من BPA وPVC",
+      العناية: "آمنة لغسالة الصحون",
     },
   },
 
-  // Baby Essentials
   {
     id: "38",
-    name: "Luxury Diaper Bag",
-    nameAr: "حقيبة حفاضات فاخرة",
-    slug: "luxury-diaper-bag",
-    description:
-      "Premium vegan leather diaper bag with multiple compartments. Converts to backpack or shoulder bag.",
+    name: "Turtle Knit Storage Basket",
+    nameAr: "مريلة أطفال سيليكون بسيطة",
+    slug: "turtle-knit-storage-basket",
+    description: "Natural rattan bench with hidden storage space.",
     descriptionAr:
-      "حقيبة حفاضات من الجلد النباتي الفاخر مع أقسام متعددة. تتحول إلى حقيبة ظهر أو حقيبة كتف.",
-    price: 189,
-    category: "essentials",
+      "مريلة سيليكون ناعمة ومقاومة للماء مع جيب عميق لتجميع الطعام أثناء الوجبات.",
+    price: 24,
+    category: "industry",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1616666428759-679a7d578307?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
-        alt: "Luxury diaper bag",
+        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1780113341/8_czq0ox.jpg",
+        alt: "Animal Height Growth Chart",
       },
     ],
     inStock: true,
-    featured: true,
-    bestSeller: true,
+    featured: false,
     rating: 4.9,
-    reviewCount: 178,
+    reviewCount: 117,
     specifications: {
-      Material: "Vegan Leather",
-      Capacity: "25L",
-      Features: "Insulated pockets, changing pad included",
-      Styles: "Backpack or shoulder carry",
+      Material: "Food-grade Silicone",
+      Size: "Adjustable Neck Fit",
+      Safety: "BPA & PVC free",
+      Care: "Dishwasher safe",
     },
     specificationsAr: {
-      المادة: "جلد نباتي",
-      السعة: "25 لتر",
-      المميزات: "جيوب معزولة، حصيرة تغيير مدرجة",
-      الأنماط: "حقيبة ظهر أو حقيبة كتف",
+      المادة: "سيليكون آمن غذائياً",
+      الحجم: "مقاس قابل للتعديل",
+      السلامة: "خالٍ من BPA وPVC",
+      العناية: "آمنة لغسالة الصحون",
     },
   },
+
   {
     id: "39",
-    name: "Organic Cotton Swaddle Set",
-    nameAr: "طقم قماط قطن عضوي",
-    slug: "organic-cotton-swaddle-set",
-    description:
-      "Breathable organic cotton swaddles with gentle stretch. Set of 4 in coordinating colors.",
+    name: "3. Baby Grooming Kit",
+    nameAr: "مريلة أطفال سيليكون بسيطة",
+    slug: "baby-grooming-kit",
+    description: "Natural rattan bench with hidden storage space.",
     descriptionAr:
-      "قماط قطن عضوي قابل للتنفس مع تمدد لطيف. طقم من 4 قطع بألوان متناسقة.",
-    price: 69,
-    category: "essentials",
+      "مريلة سيليكون ناعمة ومقاومة للماء مع جيب عميق لتجميع الطعام أثناء الوجبات.",
+    price: 24,
+    category: "industry",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1632337949070-1fdb69fe2159?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
-        alt: "Swaddle set",
+        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1780113339/4_cspkbb.jpg",
+        alt: "Animal Height Growth Chart",
       },
     ],
     inStock: true,
-    rating: 4.8,
-    reviewCount: 145,
+    featured: false,
+    rating: 4.9,
+    reviewCount: 117,
     specifications: {
-      Material: "100% Organic Cotton",
-      Size: "120 x 120 cm",
-      Stretch: "4-way stretch",
-      Certification: "GOTS certified",
+      Material: "Food-grade Silicone",
+      Size: "Adjustable Neck Fit",
+      Safety: "BPA & PVC free",
+      Care: "Dishwasher safe",
     },
     specificationsAr: {
-      المادة: "100٪ قطن عضوي",
-      الحجم: "120 x 120 سم",
-      التمدد: "تمدد في 4 اتجاهات",
-      الشهادة: "معتمد GOTS",
+      المادة: "سيليكون آمن غذائياً",
+      الحجم: "مقاس قابل للتعديل",
+      السلامة: "خالٍ من BPA وPVC",
+      العناية: "آمنة لغسالة الصحون",
     },
   },
+
+  // Nursery Decor
+  // {
+  //   id: "36",
+  //   name: "Minimalist Wall Mobile",
+  //   nameAr: "موبايل حائط بسيط",
+  //   slug: "minimalist-wall-mobile",
+  //   description:
+  //     "Handcrafted wooden mobile with natural elements. Creates gentle movement and visual stimulation.",
+  //   descriptionAr:
+  //     "موبايل خشبي مصنوع يدوياً بعناصر طبيعية. يخلق حركة لطيفة وتحفيز بصري.",
+  //   price: 95,
+  //   category: "nursery",
+  //   images: [
+  //     {
+  //       url: "https://images.unsplash.com/photo-1507225569774-01484cd2f269?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+  //       alt: "Wall mobile",
+  //     },
+  //   ],
+  //   inStock: true,
+  //   featured: true,
+  //   rating: 4.8,
+  //   reviewCount: 89,
+  //   specifications: {
+  //     Material: "Natural Wood & Cotton",
+  //     Dimensions: "60 cm diameter",
+  //     Style: "Scandinavian minimalist",
+  //     Installation: "Ceiling mount included",
+  //   },
+  //   specificationsAr: {
+  //     المادة: "خشب طبيعي وقطن",
+  //     الأبعاد: "60 سم قطر",
+  //     النمط: "إسكندنافي بسيط",
+  //     التركيب: "حامل سقف مدرج",
+  //   },
+  // },
+  // {
+  //   id: "37",
+  //   name: "Soft Night Light",
+  //   nameAr: "ضوء ليلي ناعم",
+  //   slug: "soft-night-light",
+  //   description:
+  //     "Gentle LED night light with adjustable brightness. USB rechargeable with 12-hour battery life.",
+  //   descriptionAr:
+  //     "ضوء ليلي LED لطيف مع سطوع قابل للتعديل. قابل لإعادة الشحن عبر USB مع عمر بطارية 12 ساعة.",
+  //   price: 49,
+  //   category: "nursery",
+  //   images: [
+  //     {
+  //       url: "https://images.unsplash.com/photo-1749703996043-f9a937fe6d52?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+  //       alt: "Night light",
+  //     },
+  //   ],
+  //   inStock: true,
+  //   new: true,
+  //   rating: 4.7,
+  //   reviewCount: 112,
+  //   specifications: {
+  //     Type: "LED with dimmer",
+  //     Battery: "12 hours",
+  //     Charging: "USB-C",
+  //     Brightness: "3 levels",
+  //   },
+  //   specificationsAr: {
+  //     النوع: "LED مع خافت",
+  //     البطارية: "12 ساعة",
+  //     الشحن: "USB-C",
+  //     السطوع: "3 مستويات",
+  //   },
+  // },
+
+  // Baby Essentials
+  // {
+  //   id: "38",
+  //   name: "Luxury Diaper Bag",
+  //   nameAr: "حقيبة حفاضات فاخرة",
+  //   slug: "luxury-diaper-bag",
+  //   description:
+  //     "Premium vegan leather diaper bag with multiple compartments. Converts to backpack or shoulder bag.",
+  //   descriptionAr:
+  //     "حقيبة حفاضات من الجلد النباتي الفاخر مع أقسام متعددة. تتحول إلى حقيبة ظهر أو حقيبة كتف.",
+  //   price: 189,
+  //   category: "essentials",
+  //   images: [
+  //     {
+  //       url: "https://images.unsplash.com/photo-1616666428759-679a7d578307?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+  //       alt: "Luxury diaper bag",
+  //     },
+  //   ],
+  //   inStock: true,
+  //   featured: true,
+  //   bestSeller: true,
+  //   rating: 4.9,
+  //   reviewCount: 178,
+  //   specifications: {
+  //     Material: "Vegan Leather",
+  //     Capacity: "25L",
+  //     Features: "Insulated pockets, changing pad included",
+  //     Styles: "Backpack or shoulder carry",
+  //   },
+  //   specificationsAr: {
+  //     المادة: "جلد نباتي",
+  //     السعة: "25 لتر",
+  //     المميزات: "جيوب معزولة، حصيرة تغيير مدرجة",
+  //     الأنماط: "حقيبة ظهر أو حقيبة كتف",
+  //   },
+  // },
+  // {
+  //   id: "39",
+  //   name: "Organic Cotton Swaddle Set",
+  //   nameAr: "طقم قماط قطن عضوي",
+  //   slug: "organic-cotton-swaddle-set",
+  //   description:
+  //     "Breathable organic cotton swaddles with gentle stretch. Set of 4 in coordinating colors.",
+  //   descriptionAr:
+  //     "قماط قطن عضوي قابل للتنفس مع تمدد لطيف. طقم من 4 قطع بألوان متناسقة.",
+  //   price: 69,
+  //   category: "essentials",
+  //   images: [
+  //     {
+  //       url: "https://images.unsplash.com/photo-1632337949070-1fdb69fe2159?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+  //       alt: "Swaddle set",
+  //     },
+  //   ],
+  //   inStock: true,
+  //   rating: 4.8,
+  //   reviewCount: 145,
+  //   specifications: {
+  //     Material: "100% Organic Cotton",
+  //     Size: "120 x 120 cm",
+  //     Stretch: "4-way stretch",
+  //     Certification: "GOTS certified",
+  //   },
+  //   specificationsAr: {
+  //     المادة: "100٪ قطن عضوي",
+  //     الحجم: "120 x 120 سم",
+  //     التمدد: "تمدد في 4 اتجاهات",
+  //     الشهادة: "معتمد GOTS",
+  //   },
+  // },
 
   // Gift Sets
-  {
-    id: "40",
-    name: "Newborn Welcome Gift Box",
-    nameAr: "صندوق هدية ترحيب بالمولود",
-    slug: "newborn-welcome-gift-box",
-    description:
-      "Curated luxury gift set including organic clothing, blanket, and teddy bear. Beautifully packaged.",
-    descriptionAr:
-      "طقم هدية فاخر منسق يشمل ملابس عضوية وبطانية ودب. معبأ بشكل جميل.",
-    price: 249,
-    originalPrice: 299,
-    category: "gifts",
-    images: [
-      {
-        url: "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
-        alt: "Gift box",
-      },
-    ],
-    inStock: true,
-    featured: true,
-    bestSeller: true,
-    rating: 5.0,
-    reviewCount: 267,
-    specifications: {
-      Contents: "3 onesies, blanket, teddy, hat",
-      Size: "Newborn - 3 months",
-      Packaging: "Luxury gift box with ribbon",
-      Customization: "Optional embroidery",
-    },
-    specificationsAr: {
-      المحتويات: "3 بدلات، بطانية، دب، قبعة",
-      الحجم: "حديثي الولادة - 3 أشهر",
-      التعبئة: "صندوق هدية فاخر مع شريط",
-      التخصيص: "تطريز اختياري",
-    },
-  },
+  // {
+  //   id: "40",
+  //   name: "Newborn Welcome Gift Box",
+  //   nameAr: "صندوق هدية ترحيب بالمولود",
+  //   slug: "newborn-welcome-gift-box",
+  //   description:
+  //     "Curated luxury gift set including organic clothing, blanket, and teddy bear. Beautifully packaged.",
+  //   descriptionAr:
+  //     "طقم هدية فاخر منسق يشمل ملابس عضوية وبطانية ودب. معبأ بشكل جميل.",
+  //   price: 249,
+  //   originalPrice: 299,
+  //   category: "gifts",
+  //   images: [
+  //     {
+  //       url: "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+  //       alt: "Gift box",
+  //     },
+  //   ],
+  //   inStock: true,
+  //   featured: true,
+  //   bestSeller: true,
+  //   rating: 5.0,
+  //   reviewCount: 267,
+  //   specifications: {
+  //     Contents: "3 onesies, blanket, teddy, hat",
+  //     Size: "Newborn - 3 months",
+  //     Packaging: "Luxury gift box with ribbon",
+  //     Customization: "Optional embroidery",
+  //   },
+  //   specificationsAr: {
+  //     المحتويات: "3 بدلات، بطانية، دب، قبعة",
+  //     الحجم: "حديثي الولادة - 3 أشهر",
+  //     التعبئة: "صندوق هدية فاخر مع شريط",
+  //     التخصيص: "تطريز اختياري",
+  //   },
+  // },
 
   // Feeding Products
-  {
-    id: "41",
-    name: "Silicone Feeding Set",
-    nameAr: "طقم تغذية سيليكون",
-    slug: "silicone-feeding-set",
-    description:
-      "Complete feeding set in food-grade silicone. Includes plate, bowl, cup, and utensils. BPA-free.",
-    descriptionAr:
-      "طقم تغذية كامل من السيليكون الغذائي. يتضمن طبق ووعاء وكوب وأدوات. خالي من BPA.",
-    price: 59,
-    category: "feeding",
-    images: [
-      {
-        url: "https://images.unsplash.com/photo-1647687663833-fcc91fd99792?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
-        alt: "Feeding set",
-      },
-    ],
-    inStock: true,
-    new: true,
-    rating: 4.7,
-    reviewCount: 98,
-    specifications: {
-      Material: "Food-grade silicone",
-      "Set Includes": "Plate, bowl, cup, spoon, fork",
-      Features: "Dishwasher safe, microwave safe",
-      Colors: "Dusty Rose, Sage, Cream",
-    },
-    specificationsAr: {
-      المادة: "سيليكون غذائي",
-      "يتضمن الطقم": "طبق، وعاء، كوب، ملعقة، شوكة",
-      المميزات: "آمن في غسالة الصحون، آمن في الميكروويف",
-      الألوان: "وردي داكن، أخضر فاتح، كريمي",
-    },
-  },
+  // {
+  //   id: "41",
+  //   name: "Silicone Feeding Set",
+  //   nameAr: "طقم تغذية سيليكون",
+  //   slug: "silicone-feeding-set",
+  //   description:
+  //     "Complete feeding set in food-grade silicone. Includes plate, bowl, cup, and utensils. BPA-free.",
+  //   descriptionAr:
+  //     "طقم تغذية كامل من السيليكون الغذائي. يتضمن طبق ووعاء وكوب وأدوات. خالي من BPA.",
+  //   price: 59,
+  //   category: "feeding",
+  //   images: [
+  //     {
+  //       url: "https://images.unsplash.com/photo-1647687663833-fcc91fd99792?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+  //       alt: "Feeding set",
+  //     },
+  //   ],
+  //   inStock: true,
+  //   new: true,
+  //   rating: 4.7,
+  //   reviewCount: 98,
+  //   specifications: {
+  //     Material: "Food-grade silicone",
+  //     "Set Includes": "Plate, bowl, cup, spoon, fork",
+  //     Features: "Dishwasher safe, microwave safe",
+  //     Colors: "Dusty Rose, Sage, Cream",
+  //   },
+  //   specificationsAr: {
+  //     المادة: "سيليكون غذائي",
+  //     "يتضمن الطقم": "طبق، وعاء، كوب، ملعقة، شوكة",
+  //     المميزات: "آمن في غسالة الصحون، آمن في الميكروويف",
+  //     الألوان: "وردي داكن، أخضر فاتح، كريمي",
+  //   },
+  // },
 
-  // Baby Care Prodcuts
+  // Baby Care Products
+  
   {
-    id: "42",
+    id: "40",
     name: "Baby Powder",
     nameAr: "بودرة أطفال",
     slug: "baby-powder",
@@ -1474,7 +1699,7 @@ export const products: Product[] = [
     category: "baby care",
     images: [
       {
-        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779813988/8_f7cssb.jpg",
+        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1780116305/7_jsmhxq.jpg",
         alt: "Baby Powder",
       },
     ],
@@ -1496,7 +1721,7 @@ export const products: Product[] = [
     },
   },
   {
-    id: "43",
+    id: "41",
     name: "Baby Oil",
     nameAr: "زيت أطفال",
     slug: "baby-oil",
@@ -1506,7 +1731,7 @@ export const products: Product[] = [
     category: "baby care",
     images: [
       {
-        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779813989/9_qv8jjt.jpg",
+        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1780116304/6_iezx98.jpg",
         alt: "Baby Oil",
       },
     ],
@@ -1528,7 +1753,7 @@ export const products: Product[] = [
     },
   },
   {
-    id: "44",
+    id: "42",
     name: "Baby Shampoo & Conditioner",
     nameAr: "شامبو وبلسم أطفال",
     slug: "baby-shampoo-conditioner",
@@ -1538,7 +1763,7 @@ export const products: Product[] = [
     category: "baby care",
     images: [
       {
-        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779813985/3_qer7cy.jpg",
+        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1780116300/1_m8sqin.jpg",
         alt: "Baby Shampoo & Conditioner",
       },
     ],
@@ -1560,7 +1785,7 @@ export const products: Product[] = [
     },
   },
   {
-    id: "45",
+    id: "43",
     name: "Baby Moisturizer",
     nameAr: "مرطب أطفال",
     slug: "baby-moisturizer",
@@ -1570,7 +1795,7 @@ export const products: Product[] = [
     category: "baby care",
     images: [
       {
-        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779813985/4_kjtkli.jpg",
+        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1780116302/4_azfioh.jpg",
         alt: "Baby Moisturizer",
       },
     ],
@@ -1592,7 +1817,7 @@ export const products: Product[] = [
     },
   },
   {
-    id: "46",
+    id: "44",
     name: "Baby Perfume",
     nameAr: "عطر أطفال",
     slug: "baby-perfume",
@@ -1602,7 +1827,7 @@ export const products: Product[] = [
     category: "baby care",
     images: [
       {
-        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779813986/5_o5s4tm.jpg",
+        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1780116300/3_ojiudk.jpg",
         alt: "Baby Perfume",
       },
     ],
@@ -1624,7 +1849,7 @@ export const products: Product[] = [
     },
   },
   {
-    id: "47",
+    id: "45",
     name: "Baby Shower Gel",
     nameAr: "شاور جل أطفال",
     slug: "baby-shower-gel",
@@ -1635,7 +1860,7 @@ export const products: Product[] = [
     category: "baby care",
     images: [
       {
-        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779813986/6_bu3lzz.jpg",
+        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1780116299/2_x6nz0n.jpg",
         alt: "Baby Shower Gel",
       },
     ],
@@ -1657,7 +1882,7 @@ export const products: Product[] = [
     },
   },
   {
-    id: "48",
+    id: "46",
     name: "Baby Hair Serum",
     nameAr: "سيرم شعر أطفال",
     slug: "baby-hair-serum",
@@ -1668,7 +1893,7 @@ export const products: Product[] = [
     category: "baby care",
     images: [
       {
-        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779813987/7_dxt0xx.jpg",
+        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1780116303/5_lmupan.jpg",
         alt: "Baby Hair Serum",
       },
     ],

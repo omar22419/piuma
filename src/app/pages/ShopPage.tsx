@@ -26,6 +26,7 @@ export function ShopPage() {
     { value: 'feeding', label: t('categories.feeding') },
     { value: 'gifts', label: t('categories.gifts') },
     { value: 'baby care', label: t('categories.babyCare') },
+    { value: 'industry', label: t('categories.industry') },
   ];
 
   const sortOptions: { value: SortOption; label: string }[] = [
