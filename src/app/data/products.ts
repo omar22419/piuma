@@ -928,7 +928,7 @@ export const products: Product[] = [
     descriptionAr:
       "جهاز عصري يحافظ على مناديل الأطفال دافئة ورطبة لتغيير حفاضات أكثر راحة.",
     price: 95,
-    category: "industry",
+    category: "nursery",
     images: [
       {
         url: "https://res.cloudinary.com/duexs5wps/image/upload/v1780113340/WhatsApp_Image_2026-05-28_at_7.02.55_PM_s5xxd5.jpg",
@@ -1103,7 +1103,7 @@ export const products: Product[] = [
     descriptionAr:
       "جهاز ذكي لتحضير رضاعات الحليب بسرعة مع تحكم دقيق بدرجة الحرارة.",
     price: 240,
-    category: "feeding",
+    category: "nursery",
     images: [
       {
         url: "https://res.cloudinary.com/duexs5wps/image/upload/v1779808577/14_dztoxp.jpg",
@@ -1138,7 +1138,41 @@ export const products: Product[] = [
     descriptionAr:
       "فرشاة أسنان كهربائية بتصميم أرنب لتنظيف لطيف وفعّال لأسنان الأطفال.",
     price: 39,
-    category: "feeding",
+    category: "industry",
+    images: [
+      {
+        url: "https://res.cloudinary.com/duexs5wps/image/upload/v1780113340/WhatsApp_Image_2026-05-28_at_7.02.56_PM_kyk0kg.jpg",
+        alt: "Bunny baby toothbrush",
+      },
+    ],
+    inStock: true,
+    featured: false,
+    rating: 4.8,
+    reviewCount: 74,
+    specifications: {
+      Material: "Soft Silicone Bristles",
+      Battery: "USB Rechargeable",
+      Safety: "Gentle vibration technology",
+      Care: "Replace brush head every 3 months",
+    },
+    specificationsAr: {
+      المادة: "شعيرات سيليكون ناعمة",
+      البطارية: "قابلة للشحن USB",
+      السلامة: "اهتزازات لطيفة وآمنة",
+      العناية: "تغيير الرأس كل 3 أشهر",
+    },
+  },
+  {
+    id: "66",
+    name: "Bunny Electric Baby Toothbrush",
+    nameAr: "فرشاة أسنان كهربائية للأطفال",
+    slug: "bunny-electric-baby-toothbrush",
+    description:
+      "Cute bunny-shaped electric toothbrush designed for gentle and effective baby oral care.",
+    descriptionAr:
+      "فرشاة أسنان كهربائية بتصميم أرنب لتنظيف لطيف وفعّال لأسنان الأطفال.",
+    price: 39,
+    category: "nursery",
     images: [
       {
         url: "https://res.cloudinary.com/duexs5wps/image/upload/v1780113340/WhatsApp_Image_2026-05-28_at_7.02.56_PM_kyk0kg.jpg",
@@ -1242,7 +1276,7 @@ export const products: Product[] = [
     descriptionAr:
       "مريلة سيليكون ناعمة ومقاومة للماء مع جيب عميق لتجميع الطعام أثناء الوجبات.",
     price: 24,
-    category: "industry",
+    category: "nursery",
     images: [
       {
         url: "https://res.cloudinary.com/duexs5wps/image/upload/v1780113341/13_fmxh6o.jpg",
@@ -1276,7 +1310,7 @@ export const products: Product[] = [
     descriptionAr:
       "مريلة سيليكون ناعمة ومقاومة للماء مع جيب عميق لتجميع الطعام أثناء الوجبات.",
     price: 24,
-    category: "industry",
+    category: "nursery",
     images: [
       {
         url: "https://res.cloudinary.com/duexs5wps/image/upload/v1780113338/12_didmxq.jpg",
@@ -1310,7 +1344,7 @@ export const products: Product[] = [
     descriptionAr:
       "مريلة سيليكون ناعمة ومقاومة للماء مع جيب عميق لتجميع الطعام أثناء الوجبات.",
     price: 24,
-    category: "industry",
+    category: "nursery",
     images: [
       {
         url: "https://res.cloudinary.com/duexs5wps/image/upload/v1780113338/11_hjiumn.jpg",
@@ -1344,7 +1378,7 @@ export const products: Product[] = [
     descriptionAr:
       "مريلة سيليكون ناعمة ومقاومة للماء مع جيب عميق لتجميع الطعام أثناء الوجبات.",
     price: 24,
-    category: "industry",
+    category: "nursery",
     images: [
       {
         url: "https://res.cloudinary.com/duexs5wps/image/upload/v1780113338/10_ar8fvw.jpg",
@@ -1378,7 +1412,7 @@ export const products: Product[] = [
     descriptionAr:
       "مريلة سيليكون ناعمة ومقاومة للماء مع جيب عميق لتجميع الطعام أثناء الوجبات.",
     price: 24,
-    category: "industry",
+    category: "nursery",
     images: [
       {
         url: "https://res.cloudinary.com/duexs5wps/image/upload/v1780113337/9_gxygus.jpg",
@@ -1412,7 +1446,7 @@ export const products: Product[] = [
     descriptionAr:
       "مريلة سيليكون ناعمة ومقاومة للماء مع جيب عميق لتجميع الطعام أثناء الوجبات.",
     price: 24,
-    category: "industry",
+    category: "nursery",
     images: [
       {
         url: "https://res.cloudinary.com/duexs5wps/image/upload/v1780113341/8_czq0ox.jpg",
